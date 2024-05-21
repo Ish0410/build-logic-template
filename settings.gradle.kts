@@ -32,3 +32,5 @@ include("core:database")
 include("core:datastore")
 include("core:designsystem")
 include("core:ui")
+
+include("lint")
