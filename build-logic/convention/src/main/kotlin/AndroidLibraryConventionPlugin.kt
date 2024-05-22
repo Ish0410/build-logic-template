@@ -1,4 +1,3 @@
-import com.android.build.api.variant.LibraryAndroidComponentsExtension
 import com.android.build.gradle.LibraryExtension
 import com.app.imsh.configureKotlinAndroid
 import org.gradle.api.Plugin
