@@ -27,9 +27,13 @@ gradlePlugin {
             id = "imsh.android.feature"
             implementationClass = "AndroidFeatureConventionPlugin"
         }
-        register("androidCompose") {
-            id = "imsh.android.compose"
-            implementationClass = "AndroidComposeConventionPlugin"
+        register("androidApplicationCompose") {
+            id = "imsh.android.application.compose"
+            implementationClass = "AndroidApplicationComposeConventionPlugin"
+        }
+        register("androidLibraryCompose") {
+            id = "imsh.android.library.compose"
+            implementationClass = "AndroidLibraryComposeConventionPlugin"
         }
         register("androidHilt") {
             id = "imsh.android.hilt"
