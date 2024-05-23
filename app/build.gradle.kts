@@ -1,6 +1,6 @@
 plugins {
     id("imsh.android.application")
-    id("imsh.android.application.compose")
+    id("imsh.android.compose")
     id("imsh.android.hilt")
 }
 

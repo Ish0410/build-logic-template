@@ -15,10 +15,6 @@ dependencies {
 
 gradlePlugin {
     plugins {
-        register("androidApplicationCompose") {
-            id = "imsh.android.application.compose"
-            implementationClass = "AndroidApplicationComposeConventionPlugin"
-        }
         register("androidApplication") {
             id = "imsh.android.application"
             implementationClass = "AndroidApplicationConventionPlugin"
@@ -30,6 +26,10 @@ gradlePlugin {
         register("androidFeature") {
             id = "imsh.android.feature"
             implementationClass = "AndroidFeatureConventionPlugin"
+        }
+        register("androidCompose") {
+            id = "imsh.android.compose"
+            implementationClass = "AndroidComposeConventionPlugin"
         }
         register("androidHilt") {
             id = "imsh.android.hilt"
