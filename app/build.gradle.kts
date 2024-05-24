@@ -1,6 +1,6 @@
 plugins {
     id("imsh.android.application")
-    id("imsh.android.compose")
+    id("imsh.android.application.compose")
     id("imsh.android.hilt")
 }
 
@@ -38,6 +38,8 @@ android {
 }
 
 dependencies {
+    implementation(project(":core:designsystem"))
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.hilt.navigation.compose)
