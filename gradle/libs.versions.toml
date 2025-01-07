@@ -27,6 +27,9 @@ kotlinxSerializationJson = "1.5.1"
 coil = "2.4.0"
 
 kotlinxCoroutines = "1.7.3"
+orbitCore = "9.0.0"
+orbitViewmodel = "9.0.0"
+orbitCompose = "9.0.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -76,6 +79,10 @@ android-gradlePlugin = { group = "com.android.tools.build", name = "gradle", ver
 kotlin-gradlePlugin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
 ksp-gradlePlugin = { group = "com.google.devtools.ksp", name = "com.google.devtools.ksp.gradle.plugin", version.ref = "ksp" }
 
+orbit-core = { group = "org.orbit-mvi", name = "orbit-core", version.ref = "orbitCore" }
+orbit-viewmodel = { group = "org.orbit-mvi", name = "orbit-viewmodel", version.ref = "orbitViewmodel" }
+orbit-compose = { group = "org.orbit-mvi", name = "orbit-compose", version.ref = "orbitCompose" }
+
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
@@ -99,4 +106,10 @@ compose = [
 compose-debug = [
     "androidx-ui-tooling",
     "androidx-ui-test-manifest"
+]
+
+orbit = [
+    "orbit-core",
+    "orbit-viewmodel",
+    "orbit-compose"
 ]
