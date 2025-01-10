@@ -27,6 +27,11 @@ kotlinxSerializationJson = "1.5.1"
 coil = "2.4.0"
 
 kotlinxCoroutines = "1.7.3"
+
+roomKtx = "2.7.0-alpha12"
+roomRuntime = "2.7.0-alpha12"
+roomCompiler = "2.7.0-alpha12"
+
 orbitCore = "9.0.0"
 orbitViewmodel = "9.0.0"
 orbitCompose = "9.0.0"
@@ -78,6 +83,10 @@ okhttp-logging = { group = "com.squareup.okhttp3", name = "logging-interceptor",
 android-gradlePlugin = { group = "com.android.tools.build", name = "gradle", version.ref = "agp" }
 kotlin-gradlePlugin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
 ksp-gradlePlugin = { group = "com.google.devtools.ksp", name = "com.google.devtools.ksp.gradle.plugin", version.ref = "ksp" }
+
+androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "roomKtx" }
+androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "roomRuntime" }
+androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "roomCompiler" }
 
 orbit-core = { group = "org.orbit-mvi", name = "orbit-core", version.ref = "orbitCore" }
 orbit-viewmodel = { group = "org.orbit-mvi", name = "orbit-viewmodel", version.ref = "orbitViewmodel" }
