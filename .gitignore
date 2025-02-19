@@ -208,3 +208,7 @@ replay_pid*
 
 #firebaseAppDistribution credentials file
 /credentials/
+
+#kotlin 2.0 migration
+.DS_Store
+.kotlin/
