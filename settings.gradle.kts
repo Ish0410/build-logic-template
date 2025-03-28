@@ -36,3 +36,4 @@ include(":core:designsystem")
 include(":core:ui")
 
 include(":lint")
+include(":baselineprofile")
