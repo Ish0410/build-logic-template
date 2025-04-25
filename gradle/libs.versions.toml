@@ -9,7 +9,6 @@ lifecycleRuntimeKtx = "2.8.7"
 ksp = "2.1.10-1.0.31"
 activityCompose = "1.10.0"
 composeBom = "2025.02.00"
-composeCompiler = "1.5.4"
 androidxNavigation = "2.8.7"
 androidxLifecycle = "2.8.7"
 androidxHiltNavigationCompose = "1.2.0"
@@ -61,6 +60,8 @@ androidx-lifecycle-runtimeCompose = { group = "androidx.lifecycle", name = "life
 androidx-lifecycle-viewModelCompose = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "androidxLifecycle" }
 androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "androidxNavigation" }
 androidx-hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "androidxHiltNavigationCompose" }
+
+compose-compiler-extension = { group = "org.jetbrains.kotlin", name = "compose-compiler-gradle-plugin", version.ref = "kotlin" }
 
 coil-kt = { group = "io.coil-kt", name = "coil-compose", version.ref = "coil" }
 coil-kt-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "coil" }
