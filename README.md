@@ -12,4 +12,4 @@
 
 ## 기타
 #### Android Developers 참고
-URL : <https://developer.android.com/build/migrate-to-catalogs?source=post_page-----1b5c97c45ee0-------------------------------->
+URL : <https://developer.android.com/build/migrate-to-catalogs?hl=ko>
