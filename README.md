@@ -1,15 +1,38 @@
-# build-logic-sample
-어플리케이션 개발을 위한 최소한의 build 구조 샘플
+## Build-logic-sample
+애플리케이션 개발을 위한 최소한의 build 구조 샘플
 
 </br>
 
-## build-logic Module 구조
-- extentisons
-- plugins
-- ~~versions~~  **(libs.versions.toml)**
+## Dir
+```
+📁root
+├── 📁app
+├── 📁core
+│   ├── 🗂️common
+│   ├── 🗂️model
+│   ├── 🗂️network
+│   ├── 🗂️data
+│   ├── 🗂️database
+│   ├── 🗂️datastore
+│   ├── 🗂️designsystem
+│   ├── 🗂️ui
+│   ├── 🗂️domain            // 선택 사항
+├── 📁baselineprofile       // 선택 사항
+├── 📁lint                  // 선택 사항
+├── 📁doc                   // 선택 사항
+│
+├── 📁build-logic
+│   ├── 🗂️convension
+├── 📁gradle
+│   ├──  libs.versions.toml
+📁
+```
 
 </br>
 
-## 기타
+## ETC
 #### Android Developers 참고
-URL : <https://developer.android.com/build/migrate-to-catalogs?hl=ko>
+<https://developer.android.com/build/migrate-to-catalogs?hl=ko>
+
+#### NowInAndroid 참고
+<https://github.com/android/nowinandroid>
